@@ -97,7 +97,7 @@ const App = () => {
                 <div className="latLonInputs">
                     <input type="text" id="latDMSInput" placeholder="Latitude (DMS format)" />
                     <input type="text" id="lonDMSInput" placeholder="Longitude (DMS format)" />
-                    <button onClick={handleLatLonSubmit}>Set Position</button>
+                    <button onClick={handleLatLonSubmit}>Fetch location</button>
                 </div>
                 {center && (
                     <div className="formContainer">
@@ -123,7 +123,7 @@ const App = () => {
                             value={formData.address}
                             onChange={handleAddressChange}
                         />
-                        <button onClick={handleSaveMarker}>Save Marker</button>
+                        <button onClick={handleSaveMarker}>save data</button>
                     </div>
                 )}
             </div>
