@@ -1,0 +1,32 @@
+/* src/Component/MapComponent/MapComponent.css */
+
+.mapContainer {
+    height: 100vh;
+    width: 100%;
+}
+
+.popupContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popupImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.popupDetails {
+    text-align: center;
+}
+
+.popupDetails h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.popupDetails p {
+    margin: 5px 0;
+}
